@@ -13,10 +13,12 @@ build-backend = "setuptools.build_meta"
 # single source of truth for sdu_modeling's version
 [project]
 name = "sdu_modeling"
-description = "Add short description here"
+description = "sdu_modeling is a Python library for robot modeling and estimation of inertial parameters."
 readme = "README.md"
 maintainers = [
-    { name = "Anders Prier Lindvig", email = "your@email.com" },
+    { name = "Anders Prier Lindvig", email = "anpl@mmmi.sdu.dk" },
+    { name = "Roberto de Nóbrega", email = "rno@mmmi.sdu.dk" },
+    { name = "Kasper Høj Lorenzen", email = "kalor@mmmi.sdu.dk" },
 ]
 dynamic = ["version"]
 requires-python = ">=3.8"

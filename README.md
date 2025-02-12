@@ -1,9 +1,23 @@
-# Welcome to sdu_modeling
+<p>
+</p>
+<div align="center">
+    <img width=25% src="_static/sdu_modeling_logo.png">
+</div>
+<div align="center">
+<p>
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/SDU-Robotics/sdu_modeling/ci.yml?branch=main)](https://github.com/SDU-Robotics/sdu_modeling/actions/workflows/ci.yml)
 [![Documentation Status](https://readthedocs.org/projects/sdu_modeling/badge/)](https://sdu_modeling.readthedocs.io/)
 [![codecov](https://codecov.io/gh/SDU-Robotics/sdu_modeling/branch/main/graph/badge.svg)](https://codecov.io/gh/SDU-Robotics/sdu_modeling)
+
+</div>
+
+# sdu_modeling
+sdu_modeling is a Python library for robot modeling and estimation of inertial parameters.
+The library is developed and maintained by the [SDU Robotics](https://www.sdu.dk/en/forskning/sdurobotics)
+group at University of Southern Denmark (SDU).
 
 ## Installation
 
@@ -30,6 +44,16 @@ Having done so, the test suite can be run using `pytest`:
 python -m pytest
 ```
 
-## Acknowledgments
+## Build docs
+Make sure dependencies for the docs are installed. Otherwise install with:
 
-This repository was set up using the [SSC Cookiecutter for Python Packages](https://github.com/ssciwr/cookiecutter-python-package).
+```
+pip install .[docs]
+```
+
+now build the documentation with:
+
+```
+cd docs
+make html
+```
