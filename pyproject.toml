@@ -34,13 +34,15 @@ dependencies = [
 
 [project.optional-dependencies]
 tests = [
-    "pytest",
-    "pytest-cov",
+    "pytest"
 ]
 docs = [
     "sphinx",
     "sphinx_mdinclude",
-    "sphinx_rtd_theme",
+    "sphinx.ext.autodoc",
+    "sphinx_book_theme",
+    "sphinx_design",
+    "sphinxcontrib.icon"
 ]
 
 # Command line scripts installed as part of the installation
