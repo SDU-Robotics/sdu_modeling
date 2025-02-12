@@ -1,7 +1,7 @@
 <p>
 </p>
 <div align="center">
-    <img width=25% src="_static/sdu_modeling_logo.png">
+    <img width=25% src="doc/_static/sdu_modeling_logo.png">
 </div>
 <div align="center">
 <p>
