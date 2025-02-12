@@ -10,7 +10,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/SDU-Robotics/sdu_modeling/ci.yml?branch=main)](https://github.com/SDU-Robotics/sdu_modeling/actions/workflows/ci.yml)
 [![Documentation Status](https://readthedocs.org/projects/sdu_modeling/badge/)](https://sdu_modeling.readthedocs.io/)
-[![codecov](https://codecov.io/gh/SDU-Robotics/sdu_modeling/branch/main/graph/badge.svg)](https://codecov.io/gh/SDU-Robotics/sdu_modeling)
 
 </div>
 
