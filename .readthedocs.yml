@@ -13,6 +13,4 @@ formats: all
 python:
   install:
     - method: pip
-      path: .
-      extra_requirements:
-        - docs
+      path: .[docs]
